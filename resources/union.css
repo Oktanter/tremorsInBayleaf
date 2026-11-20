@@ -1,0 +1,46 @@
+html {
+    background: #283e4c;
+    font-family: "Oxanium", "Courier New", monospace;
+}
+
+body {
+    display:flex;
+    flex-direction:column;
+    min-height: 100dvh;
+    width: 99%;
+    color:white;
+}
+
+.commandLine {
+    margin-bottom: 1em;
+    color: white;
+}
+
+.output {
+    flex-grow:1;
+}
+
+.userInput {
+    align-self: flex-end;
+    background: transparent;
+    border: none;
+    color: white;
+    font: inherit;
+    padding: 0;
+    height: 1em;
+    width:auto;
+    field-sizing: content;
+}
+
+.cursor {
+    vertical-align: text-bottom;
+    display:inline-block;
+    height:1em;
+    width:1ch;
+    background-color:white;
+}
+
+.userInput:focus {
+    outline: none;
+}
+
