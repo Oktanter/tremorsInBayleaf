@@ -7,12 +7,14 @@ body {
     display:flex;
     flex-direction:column;
     min-height: 100dvh;
-    width: 99%;
+    width: 100dvw;
     color:white;
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0 1ch;
 }
 
 .commandLine {
-    margin-bottom: 1em;
     color: white;
 }
 
